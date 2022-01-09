@@ -1,1 +1,1 @@
-# react-hover-effects
+# styled-hover-effects

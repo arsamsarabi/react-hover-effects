@@ -1,9 +1,18 @@
 {
-  "name": "react-hover-effects",
-  "description": "React component for adding hover effects to any element",
+  "name": "styled-hover-effects",
+  "description": "styled-component components for adding hover effects to any element",
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
+  "keywords": [
+    "hover",
+    "effects",
+    "styled-component",
+    "styled-components",
+    "styled-hover-effects",
+    "react",
+    "react-native"
+  ],
   "files": [
     "dist"
   ],
