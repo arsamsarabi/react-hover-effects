@@ -11,9 +11,10 @@
     "build": "yarn clean && yarn tsc",
     "clean": "rimraf dist",
     "prepare": "husky install",
-    "lint": "eslint src",
+    "eslint": "eslint src",
     "format": "prettier --write 'src/**/*.ts'",
-    "stylelint": "stylelint 'src/**/*.ts"
+    "stylelint": "stylelint 'src/**/*.ts",
+    "lint": "yarn eslint && yarn stylelint && yarn prettier"
   },
   "author": {
     "name": "Arsam Sarabi",
